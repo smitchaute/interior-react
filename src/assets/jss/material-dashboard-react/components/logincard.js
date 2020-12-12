@@ -4,15 +4,16 @@ import {
     hexToRgb,
 } from "assets/jss/material-dashboard-react.js";
 
-const cardStyle = {
+const logincard = {
     card: {
         border: "0",
-        marginBottom: "30px",
-        marginTop: "30px",
+        marginBottom: "100px",
+        marginTop: "150px",
+        marginLeft: "450px",
         borderRadius: "6px",
         color: "rgba(" + hexToRgb(blackColor) + ", 0.87)",
         background: whiteColor,
-        width: "50%",
+        width: "35%",
         boxShadow: "0 1px 4px 0 rgba(" + hexToRgb(blackColor) + ", 0.14)",
         position: "relative",
         display: "flex",
@@ -37,4 +38,4 @@ const cardStyle = {
     },
 };
 
-export default cardStyle;
+export default logincard;
